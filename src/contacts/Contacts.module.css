@@ -1,0 +1,22 @@
+.contacts {
+    background-color: #e8d764;
+}
+
+.container {
+    border: 1px solid;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px 10px;
+}

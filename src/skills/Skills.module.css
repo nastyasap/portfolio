@@ -1,0 +1,32 @@
+.skillsBlock {
+    background-color: #f9f9f9;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #898989;
+    padding: 120px 0;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 630px) {
+    .container {
+        padding: 0 5%;
+    }
+}
