@@ -1,10 +1,10 @@
 import s from './Contacts.module.css'
-import {Title} from "../common/title/Title";
+import {Title} from "../../common/title/Title";
+import {Box} from "../../common/Box/Box";
 
 export function Contacts() {
     return (
-        <div className={s.contacts}>
-            <div className={s.container}>
+        <Box bgColor={'#f9f9f9'} height={'50vh'}>
                 <Title text={'Contacts'}/>
                 <form className={s.formContainer}>
                     <input/>
@@ -12,8 +12,7 @@ export function Contacts() {
                     <textarea/>
                     <button type={'submit'}>Send</button>
                 </form>
-            </div>
-        </div>
+        </Box>
     );
 }
 

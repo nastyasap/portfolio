@@ -1,0 +1,20 @@
+.mainWrapper {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    width: 300px;
+}
+
+.photoWrapper {
+    width: 300px;
+    height: 400px;
+    display: block;
+    padding: 0 20px;
+}
+
+.photo {
+    width: 100%;
+}

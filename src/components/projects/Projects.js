@@ -1,11 +1,11 @@
 import s from './Projects.module.css'
 import {Project} from "./project/Project";
-import {Title} from "../common/title/Title";
-import {Box} from "../common/Box/Box";
+import {Box} from "../../common/Box/Box";
+import {Title} from "../../common/title/Title";
 
 export function Projects() {
     return (
-        <Box bgColor={'#ffffff'}>
+        <Box>
             <Title text={'My Projects'}/>
             <div className={s.projects}>
                 <Project img={'https://i.pinimg.com/originals/b9/59/f1/b959f1670d2631589643575de5a782b7.jpg'}

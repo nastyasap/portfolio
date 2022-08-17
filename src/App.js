@@ -1,10 +1,10 @@
 import s from './App.module.css';
-import {Header} from "./header/Header";
-import {Main} from "./main/Main";
-import {Skills} from "./skills/Skills";
-import {Projects} from "./projects/Projects";
-import {Contacts} from "./contacts/Contacts";
-import {Footer} from "./Footer/Footer";
+import {Header} from "./components/header/Header";
+import {Main} from "./components/main/Main";
+import {Contacts} from "./components/contacts/Contacts";
+import {Footer} from "./components/footer/Footer";
+import {Skills} from "./components/skills/Skills";
+import {Projects} from "./components/projects/Projects";
 
 function App() {
     return (
