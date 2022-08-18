@@ -5,7 +5,7 @@ import {Box} from "../../common/Box/Box";
 export function Contacts() {
     return (
         <Box bgColor={'#f9f9f9'} height={'50vh'}>
-                <Title text={'Contacts'}/>
+                <Title>Contacts</Title>
                 <form className={s.formContainer}>
                     <input/>
                     <input/>

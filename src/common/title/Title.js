@@ -1,10 +1,10 @@
 import s from "./Title.module.css";
 
 
-export function Title (props) {
+export function Title ({children, style}) {
     return (
-        <div className={s.title}>
-            <div>{props.text}</div>
+        <div style={style} className={s.title}>
+            {children}
         </div>
     )
 }

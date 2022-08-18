@@ -5,7 +5,7 @@ import {Box} from "../../common/Box/Box";
 export function Footer() {
     return (
         <Box height={'50vh'}>
-            <Title text={'Anastasiya Sapozhnikova'}/>
+            <Title>Anastasiya Sapozhnikova</Title>
             <div className={s.icons}>
                 <div className={s.icon}></div>
                 <div className={s.icon}></div>
