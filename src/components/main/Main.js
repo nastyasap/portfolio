@@ -1,7 +1,8 @@
-import s from './Main.module.css'
+import s from './Main.module.scss'
 import {Box} from "../../common/Box/Box";
 import mainPhoto from "../../images/mainPhoto.JPG"
 import {Title} from "../../common/title/Title";
+import {Link} from "../../common/link/Link";
 
 export function Main() {
     return (
@@ -11,8 +12,9 @@ export function Main() {
                     <img className={s.photo} src={mainPhoto} alt={"photo"}/>
                 </div>
                 <div className={s.text}>
-                    <Title style={{margin: '28px 0', fontSize: '44px'}}>I'm Sapozhnikova Anastasiya, <br/>Front-end developer<br/> from Belarus</Title>
+                    <Title style={{fontSize: '44px'}}>I'm Sapozhnikova Anastasiya, <br/>Front-end developer<br/> from Belarus</Title>
                     <p>Frontend developer</p>
+                    <Link name={'Download resume'} href={''}/>
                 </div>
             </div>
         </Box>

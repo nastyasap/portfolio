@@ -1,0 +1,49 @@
+.mainWrapper {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+
+  .photoWrapper {
+    width: 30%;
+    height: 400px;
+    display: block;
+    padding: 0 20px;
+
+    .photo {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 720px) {
+      width: 100%;
+      height: auto;
+    }
+
+    .text {
+      padding: 0 20px;
+      width: 66%;
+      margin-top: 28px;
+      @media screen and (max-width: 1080px) {
+        margin: 0;
+      }
+      @media screen and (max-width: 720px) {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
