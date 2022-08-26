@@ -1,4 +1,4 @@
-import s from './Box.module.css'
+import s from './Box.module.scss'
 
 export function Box({children, style}) {
     return (
