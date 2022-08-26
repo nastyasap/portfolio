@@ -1,8 +1,10 @@
+@import './../styles/sass/variables';
+
 .block {
-  background-color: #ffffff;
+  background-color: $bgColor;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  color: #898989;
+  color: $textColor;
   padding: 120px 0;
   line-height: 20px;
   letter-spacing: 0.02em;
