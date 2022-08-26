@@ -1,7 +1,7 @@
 import s from './Projects.module.css'
 import {Project} from "./project/Project";
 import {Box} from "../../common/Box/Box";
-import {Title} from "../../common/title/Title";
+import {Title} from "../../common/Title/Title";
 
 export function Projects() {
     return (
