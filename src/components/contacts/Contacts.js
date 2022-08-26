@@ -1,4 +1,4 @@
-import s from './Contacts.module.css'
+import s from './Contacts.module.scss'
 import {Title} from "../../common/Title/Title";
 import {Box} from "../../common/Box/Box";
 

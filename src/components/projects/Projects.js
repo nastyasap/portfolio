@@ -1,4 +1,4 @@
-import s from './Projects.module.css'
+import s from './Projects.module.scss'
 import {Project} from "./project/Project";
 import {Box} from "../../common/Box/Box";
 import {Title} from "../../common/Title/Title";

@@ -1,4 +1,4 @@
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 import {Skill} from "./skill/Skill";
 import {Box} from "../../common/Box/Box";
 import {Title} from "../../common/Title/Title";

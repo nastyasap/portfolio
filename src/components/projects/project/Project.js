@@ -1,4 +1,4 @@
-import s from './Project.module.css'
+import s from './Project.module.scss'
 
 export function Project(props) {
     return (

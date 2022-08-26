@@ -1,8 +1,10 @@
+@import './src/common/styles/sass/variables';
+
 .title{
     margin: 0;
     padding-bottom: 25px;
     font-family: 'Kaushan Script', cursive;
-    color: #292929;
+    color: $titleColor;
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
