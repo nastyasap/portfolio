@@ -1,0 +1,25 @@
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
+
+.link {
+  margin-left: 40px;
+  padding-top: 15px;
+  display: inline-block;
+  vertical-align: top;
+  @include text(#999999, 15px, 0.02em, 500, 20px, $secondaryFontFamily);
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 1;
+  transition: box-shadow 0.4s ease 0s;
+
+  &:hover {
+    box-shadow: inset 0 -6px 0 $secondaryColor;
+    color: $titleColor;
+  }
+}
+
+
+
+
+

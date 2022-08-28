@@ -2,7 +2,7 @@ import s from './Main.module.scss'
 import {Box} from "../../common/Box/Box";
 import mainPhoto from "../../images/mainPhoto.JPG"
 import {Title} from "../../common/Title/Title";
-import {Link} from "../../common/Link/Link";
+import {Link} from "../../common/Link/ButtonLink/Link";
 
 export function Main() {
     return (

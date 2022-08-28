@@ -1,5 +1,5 @@
-import s from './Header.module.css'
-import {NavBar} from "../navBar/NavBar";
+import s from './Header.module.scss'
+import {NavBar} from "./navBar/NavBar";
 
 export function Header() {
     return (
