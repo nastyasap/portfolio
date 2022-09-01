@@ -1,16 +1,20 @@
 import s from './Main.module.scss'
 import {Box} from "../../common/Box/Box";
-import mainPhoto from "../../assets/images/mainPhoto.JPG"
+import photo from "../../assets/images/photo.png"
 import {Title} from "../../common/Title/Title";
 import {Link} from "../../common/Link/ButtonLink/Link";
+import Tilt from "react-tilt/dist/tilt";
 
 export function Main() {
     return (
-        <Box>
+        <Box id={'main'}>
             <div className={s.mainWrapper}>
                 <div className={s.photoWrapper}>
-                    <img className={s.photo} src={mainPhoto} alt={"photo"}/>
+                    {/*<Tilt className="Tilt" options={{max: 25}} style={{height: 250, width: 250}}>*/}
+                        <img className={s.photo} src={photo} alt={"photo"}/>
+                    {/*</Tilt>*/}
                 </div>
+
                 <div className={s.textBlock}>
                     <Title style={{fontSize: '44px'}}>I'm Sapozhnikova Anastasiya, <br/>Front-end developer<br/> from
                         Belarus</Title>

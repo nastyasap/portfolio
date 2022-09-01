@@ -1,8 +1,8 @@
 import s from './Box.module.scss'
 
-export function Box({children, style}) {
+export function Box({children, style, id}) {
     return (
-        <div style={style} className={s.block}>
+        <div id={id} style={style} className={s.block}>
             <div className={s.container}>
                 {children}
             </div>

@@ -5,7 +5,7 @@ import {Title} from "../../common/Title/Title";
 
 export function Projects() {
     return (
-        <Box>
+        <Box id={'projects'}>
             <Title>My Projects</Title>
             <div className={s.projects}>
                 <Project img={'https://i.pinimg.com/originals/b9/59/f1/b959f1670d2631589643575de5a782b7.jpg'}

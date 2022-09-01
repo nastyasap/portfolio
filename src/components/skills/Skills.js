@@ -5,7 +5,7 @@ import {Title} from "../../common/Title/Title";
 
 export function Skills() {
     return (
-        <Box style={{backgroundColor: '#f9f9f9'}}>
+        <Box id={'skills'}>
             <Title>Skills</Title>
             <div className={s.skills}>
                 <Skill title={'JS'} description={'exdrtcfygvubhijokl zsxdrctfvygbhunijmk xrctvygbhunj'}/>
