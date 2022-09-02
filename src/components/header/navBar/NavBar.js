@@ -12,9 +12,9 @@ export function NavBar() {
     return (
         <div className={s.wrapper}>
             {isOpen ?
-                <img className={s.btn} src={cross} onClick={() => setIsOpen(false)}/>
+                <img className={s.btn} alt='menu' src={cross} onClick={() => setIsOpen(false)}/>
                 :
-                <img className={s.btn} src={burgerMenu} onClick={() => setIsOpen(true)}/>}
+                <img className={s.btn} alt='close' src={burgerMenu} onClick={() => setIsOpen(true)}/>}
             <div className={cn(s.nav, {[s.isOpen]: isOpen}) }>
                 <MenuLink name={'About'} href={'main'}/>
                 <MenuLink name={'Skills'} href={'skills'}/>
