@@ -1,5 +1,47 @@
-.nav {
+@import "src/common/styles/sass/variables";
+
+.wrapper {
+  padding: 25px 35px;
+  height: 80px;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  //transition: ;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 10px 20px 0;
+
+  .btn {
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    @media screen and (min-width: 1080px) {
+      display: none
+    }
+  }
+
+  .nav {
     display: flex;
     justify-content: space-between;
-
+    @media screen and (max-width: 1080px) {
+      display: none;
+      &.isOpen {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 120px;
+      }
+    }
+  }
 }
