@@ -17,7 +17,8 @@ export function NavBar() {
                 :
                 <img className={s.btn} alt='close' src={burgerMenu} onClick={() => setIsOpen(true)}/>}
             <div className={s.logo}>
-                <Title style={{padding: 0, fontWeight: 700}} children={'My portfolio'}/>
+                <Title style={{padding: 0, fontWeight: 700
+                }} children={'My portfolio'}/>
             </div>
             <div className={cn(s.nav, {[s.isOpen]: isOpen})}>
                 <MenuLink name={'About'} href={'main'}/>
