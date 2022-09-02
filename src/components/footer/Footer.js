@@ -11,7 +11,7 @@ import instagram from "../../assets/icons/socialNetworks/instagram.svg"
 
 export function Footer() {
     return (
-        <Box id={'footer'} style={{height: '50vh', alignItems: 'center'}}>
+        <Box id={'footer'} style={{height: '50vh'}} wrStyle={{alignItems: 'center'}}>
             <Title>Anastasiya Sapozhnikova</Title>
             <div className={s.icons}>
                 <SocialNetLink img={linkedin} link={"https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-%D1%81%D0%B0%D0%BF%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0-06081322b/"}/>
