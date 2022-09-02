@@ -5,14 +5,28 @@
   height: 80px;
   background-color: $bgColor;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  //transition: ;
+  transition: all 0.4s ease 0s;
   box-shadow: rgba(17, 12, 46, 0.15) 0 10px 20px 0;
+  @media screen and (max-width: 1080px) {
+    top: 0;
+    right: 0;
+    width: 30px;
+    &.isOpen {
+      width: 100%;
+      height: 160px;
+      opacity: 0.8;
+    }
+  }
+  .logo {
+    @media screen and (max-width: 1080px) {
+      display: none;
+    }
+  }
 
   .btn {
     cursor: pointer;
@@ -21,10 +35,11 @@
     right: 20px;
     width: 24px;
     height: 24px;
-    z-index: 1;
+    z-index: 2;
     @media screen and (min-width: 1080px) {
-      display: none
+      display: none;
     }
+
   }
 
   .nav {
