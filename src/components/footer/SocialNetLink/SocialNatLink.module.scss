@@ -1,12 +1,36 @@
+@import "src/common/styles/sass/variables";
+
 .iconWrapper {
   border-radius: 50%;
   width: 42px;
   height: 42px;
   cursor: pointer;
   margin: 0 15px;
+  position: relative;
+  display: inline-block;
+  &:hover .tooltip {
+    visibility: visible;
+  }
+
 
   .icon {
     width: 100%;
+
+  }
+
+  .tooltip {
+    visibility: hidden;
+    color: $titleColor;
+    font-family: $fontFamily;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
   }
 }
 

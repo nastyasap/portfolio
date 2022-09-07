@@ -8,8 +8,6 @@ import telegram from "../../assets/icons/socialNetworks/telegram.svg"
 import gmail from "../../assets/icons/socialNetworks/gmail.svg"
 import phone from "../../assets/icons/socialNetworks/phone.svg"
 import instagram from "../../assets/icons/socialNetworks/instagram.svg"
-import {Modal} from "../../common/Modal/Modal";
-import {useState} from "react";
 
 export function Footer() {
     return (
@@ -20,8 +18,8 @@ export function Footer() {
                                link={"https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-%D1%81%D0%B0%D0%BF%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0-06081322b/"}/>
                 <SocialNetLink img={github} link={"https://github.com/nastyasap"}/>
                 <SocialNetLink img={telegram} link={'https://t.me/nastyasap'}/>
-                <SocialNetLink img={gmail} link={'mailto: nastyasap53@gmail.com'}/>
-                <SocialNetLink img={phone} link={'tel: +375291744369'}/>
+                <SocialNetLink img={gmail} link={'mailto: nastyasap53@gmail.com'} text={"nastyasap53@gmail.com"}/>
+                <SocialNetLink img={phone} link={'tel: +375291744369'} text={"+375291744369"}/>
                 <SocialNetLink img={instagram} link={"https://instagram.com/sapozhnikova.nastya?igshid=ZDg1NjBiNjg="}/>
             </div>
         </Box>
