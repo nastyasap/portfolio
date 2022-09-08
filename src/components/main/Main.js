@@ -4,15 +4,16 @@ import photo from "../../assets/images/photo.png"
 import {Title} from "../../common/Title/Title";
 import {Link} from "../../common/Link/ButtonLink/Link";
 import Tilt from "react-tilt/dist/tilt";
+import resume from "../../assets/Anastasiya Sapozhnikova.docx"
 
 export function Main() {
     return (
         <Box id={'main'}>
             <div className={s.mainWrapper}>
                 <div className={s.photoWrapper}>
-                    {/*<Tilt className="Tilt" options={{max: 25}} style={{height: 250, width: 250}}>*/}
-                        <img className={s.photo} src={photo} alt={"photo"}/>
-                    {/*</Tilt>*/}
+                    <Tilt className="Tilt" options={{max: 10}} >
+                        <img className={s.photo} src={photo} alt={"it's me"}/>
+                    </Tilt>
                 </div>
 
                 <div className={s.textBlock}>
@@ -20,12 +21,11 @@ export function Main() {
                         Belarus</Title>
                     <p> I’m 24 years old. I graduated from BSU in 2020 with honors, my major was chemistry,
                         radiochemistry.
-                        I was always interested in science and studying.
-                        I worked for 3 months in my specialty as a radiochemist engineer.
-                        Then I was working as a manager in a private company connected with Yandex taxi.
-                        I finished IT-Incubator courses.
+                        I’m responsible, fast-learning and easy-going person.
+                        In 2014 and 2015 I worn republic Olympiad on chemistry.
+                        So I can’t imagine my life without development.
                     </p>
-                    <Link name={'Download resume'} href={''}/>
+                    <Link name={'Download resume'} href={resume}/>
                 </div>
             </div>
         </Box>
