@@ -23,7 +23,7 @@ export function Projects() {
                          description={"It's a typical social network. It's written on typescript "}/>
                 <Project img={salary} link={'https://yandex-salaries.herokuapp.com/drivers'}
                          title={'Count Salary'}
-                         description={"The program for integrating Yandex Taxi with my previous company's internal product to simplify work with large amounts of data."}/>
+                         description={"The application for integrating Yandex Taxi with my previous company's internal product to simplify work with large amounts of data."}/>
             </div>
         </Box>
     );
