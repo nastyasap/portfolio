@@ -23,7 +23,7 @@ export function Main() {
                         radiochemistry.
                         I’m responsible, fast-learning and easy-going person.
                         In 2014 and 2015 I worn republic Olympiad on chemistry.
-                        So I can’t imagine my life without development.
+                        So I can’t imagine my life without self-development.
                     </p>
                     <Link name={'Download resume'} href={resume}/>
                 </div>
