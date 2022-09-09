@@ -1,4 +1,4 @@
-@import './../styles/sass/variables';
+@import 'src/common/styles/sass/variables';
 
 .block {
   font-size: 15px;
@@ -8,7 +8,8 @@
   line-height: 20px;
   letter-spacing: 0.02em;
   font-weight: 300;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 50vh;
 
   .container {
     margin: 0 auto;

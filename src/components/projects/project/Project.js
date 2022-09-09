@@ -3,7 +3,7 @@ import {Link} from "../../../common/Link/ButtonLink/Link";
 
 export function Project(props) {
     return (
-        <div className={s.project}>
+        <a className={s.project} href={props.link} target={'_blank'}>
             <div className={s.imgContainer}>
                 <img className={s.img} src={props.img} alt={'project'}/>
                 <div className={s.link}>
@@ -14,7 +14,7 @@ export function Project(props) {
                 <div className={s.title}>{props.title}</div>
                 <p className={s.text}>{props.description}</p>
             </div>
-        </div>
+        </a>
     );
 }
 
