@@ -19,11 +19,10 @@ export function Main() {
                 <div className={s.textBlock}>
                     <Title style={{fontSize: '44px'}}>I'm Sapozhnikova Anastasiya, <br/>Front-end developer<br/> from
                         Belarus</Title>
-                    <p> I’m 24 years old. I graduated from BSU in 2020 with honors, my major was chemistry,
-                        radiochemistry.
-                        I’m responsible, fast-learning and easy-going person.
-                        In 2014 and 2015 I worn republic Olympiad on chemistry.
-                        So I can’t imagine my life without self-development.
+                    <p> I’m 24 years old. Enthusiastic 24 years old frontend developer.
+                        Responsible, fast-learning and easy-going person.
+                        When I’ve been studying at school I won republic Olympiad on chemistry and graduated from university with honors. So I can’t imagine my life without self-development.
+                        Based in Tbilisi, Georgia and Minsk, Belarus.
                     </p>
                     <Link name={'Download resume'} href={resume}/>
                 </div>
