@@ -4,6 +4,7 @@ import photo from "../../assets/images/photo.png"
 import {Title} from "../../common/Title/Title";
 import {Link} from "../../common/Link/ButtonLink/Link";
 import Tilt from "react-tilt/dist/tilt";
+import cv from "../../assets/AnastasiyaSapozhnikova.pdf"
 
 export function Main() {
     return (
@@ -21,10 +22,10 @@ export function Main() {
                     <p className={s.text}> Enthusiastic 24 years old frontend developer.
                         Responsible, fast-learning and easy-going person.
                         When I’ve been studying at school I won republic Olympiad on chemistry and graduated from university with honors. So I can’t imagine my life without self-development.
-                        Based in Tbilisi, Georgia and Minsk, Belarus
+                        Based in Minsk, Belarus
 
                     </p>
-                    <Link name={'Open CV'} href={'https://docs.google.com/document/d/1tMoRR2k458Ho3wlaoXZoatAIlCuIciK_/edit?usp=sharing&ouid=101031333687300784417&rtpof=true&sd=true'}/>
+                    <Link name={'Open CV'} href={cv}/>
                 </div>
             </div>
         </Box>
