@@ -1,4 +1,4 @@
-import s from './Footer.module.scss'
+import s from './Footer.module.css'
 import {Title} from "../../common/Title/Title";
 import {Box} from "../../common/Box/Box";
 import {SocialNetLink} from "./SocialNetLink/SocialNetLink";
