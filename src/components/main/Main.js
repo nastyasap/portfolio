@@ -4,7 +4,7 @@ import photo from "../../assets/images/photo.png"
 import {Title} from "../../common/Title/Title";
 import {Link} from "../../common/Link/ButtonLink/Link";
 import Tilt from "react-tilt/dist/tilt";
-import cv from "../../assets/AnastasiyaSapozhnikova.pdf"
+import cv from "../../assets/SapozhnikovaAnastasiya.pdf"
 
 export function Main() {
     return (
