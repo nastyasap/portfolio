@@ -19,9 +19,10 @@ export function Main() {
                 <div className={s.textBlock}>
                     <Title style={{fontSize: '44px'}}>I'm Sapozhnikova Anastasiya, <br/>Front-end developer<br/> from
                         Belarus</Title>
-                    <p className={s.text}> Enthusiastic 24 years old frontend developer.
-                        Responsible, fast-learning and easy-going person.
-                        When I’ve been studying at school I won republic Olympiad on chemistry and graduated from university with honors. So I can’t imagine my life without self-development.
+                    <p className={s.text}> Enthusiastic frontend developer with experience in creating SPA using React, Redux, TypeScript.
+                        Knowledge in user interface, testing, and debugging processes.
+                        I improving my skills in this direction and plan to expand them with new technologies.
+                        Open to your suggestions.
                         Based in Minsk, Belarus
 
                     </p>
