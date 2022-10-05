@@ -22,9 +22,8 @@ export function Main() {
                     <p className={s.text}> Enthusiastic frontend developer with experience in creating SPA using React, Redux, TypeScript.
                         Knowledge in user interface, testing, and debugging processes.
                         I improving my skills in this direction and plan to expand them with new technologies.
-                        Open to your suggestions.
-                        Based in Minsk, Belarus
-
+                        <br/>Open to your suggestions.
+                        <br/>Based in Minsk, Belarus
                     </p>
                     <Link name={'Open CV'} href={cv}/>
                 </div>
