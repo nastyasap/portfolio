@@ -21,10 +21,10 @@ export function NavBar() {
                 }} children={'My portfolio'}/>
             </div>
             <div className={cn(s.nav, {[s.isOpen]: isOpen})}>
-                <MenuLink name={'About'} href={'main'}/>
-                <MenuLink name={'Skills'} href={'skills'}/>
-                <MenuLink name={'Projects'} href={'projects'}/>
-                <MenuLink name={'Contacts'} href={'footer'}/>
+                <MenuLink onCloseMenu={() => setIsOpen(false)} name={'About'} href={'main'}/>
+                <MenuLink onCloseMenu={() => setIsOpen(false)} name={'Skills'} href={'skills'}/>
+                <MenuLink onCloseMenu={() => setIsOpen(false)} name={'Projects'} href={'projects'}/>
+                <MenuLink onCloseMenu={() => setIsOpen(false)} name={'Contacts'} href={'footer'}/>
             </div>
         </div>
     )

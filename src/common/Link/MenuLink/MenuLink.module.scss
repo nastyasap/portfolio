@@ -22,6 +22,10 @@
     box-shadow: inset 0 -6px 0 $secondaryColor;
     color: $titleColor;
   }
+
+  @media screen and (max-width: 980px) {
+    margin-left: 0;
+  }
 }
 
 
